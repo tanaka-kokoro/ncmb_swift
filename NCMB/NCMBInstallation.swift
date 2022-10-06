@@ -38,7 +38,7 @@ public class NCMBInstallation : NCMBBase {
         super.init(className: className, fields: fields, modifiedFieldKeys: modifiedFieldKeys)
     }
 
-    /// イニシャライズです。
+    /// イニシャライズです。【テスト書き換え】
     public init() {
         super.init(className: NCMBInstallation.CLASSNAME)
         let channels : [String] = []
